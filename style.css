@@ -1,0 +1,435 @@
+html,body{
+    overflow-x: hidden;}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    height: 3.1rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    background-color: white;
+}
+
+.nav-left, .nav-right{
+    display: flex;
+    align-items: center;
+    margin: 0 1.3rem 0 1.3rem;
+
+}
+
+.nav-item1{
+    margin-left: 1.4rem;
+    color: black;
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.btn{
+    width: 6.2rem;
+    font-size: 0.9rem;
+}
+
+.gfg-icon{
+    text-align: center;
+   margin-right: 60px;
+}
+
+.fullstack-cont{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(180deg, #4bc4d7, transparent);
+}
+
+
+.fullstack-headcont{
+    height: 6rem;
+    width: 65rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5.5rem 0 0 0;
+    flex-direction: column;
+}
+
+.fullstack-head{
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 700;
+    font-size: 1.7rem;
+    color: #FDFDFD;
+}
+
+.ratings{
+    color: #FDFDFD;
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.ratings i{
+    color: #f6b91c;
+}
+
+.course{
+    height: 19.5rem;
+    width: 90%;
+    display: flex;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 1.5rem;
+}
+
+.course-vid{
+    border-radius: 1.5rem 0 0 1.5rem;
+}
+
+.course-cont{
+    display: flex;
+    justify-content: center;
+}
+
+.course-desc{
+    width: 70%;
+    border-radius: 0 1.5rem 1.5rem 0;
+    padding: 1.6rem 0 0 1rem;
+    background-color: white;
+}
+
+.course-deschead{
+    font-size: 1.6rem;
+    font-weight: 600;
+    font-family: "Source Sans 3", sans-serif;
+    margin-top: 1rem;
+}
+
+.course-body{
+    font-family: "Nunito", sans-serif;
+    font-weight: 300;
+    font-size: 1.1rem;
+    color: #6C757D;
+    margin-top: 0.7rem;
+}
+
+.course-body span{
+    font-weight: 600;
+}
+
+.geeks span{
+    font-weight: 300;
+    font-size: 0.9rem;
+    color: #6C757D;
+    font-family: "Nunito", sans-serif;
+    margin-left: 0.8rem;
+}
+ 
+.login{
+    margin-top: 2.5rem;
+    width: 14.5rem;
+    font-family: "Nunito", sans-serif;
+    font-size: 1rem;
+}
+
+.course-overview{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.course-head{
+    font-size: 1.6rem;
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 600;
+}
+
+.course-content{
+    font-family: "Nunito", sans-serif;
+    font-size: 1rem;
+    margin-top: 1.5rem;
+}
+
+.details-intruc{
+    background-color: #E9ECEF;
+    height: 30rem;
+    margin-top: 5rem;
+}
+
+.instru-head{
+    color: #28A745;
+    font-size: 1.5rem;
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.details{
+    margin-top: 2rem;
+    display: flex;
+}
+
+.instructor{
+    width: 20rem;
+    margin: 0 5rem 0 5rem;
+}
+
+.instru-img{
+    background: url("https://www.geeksforgeeks.org/_next/image?url=https%3A%2F%2Fmedia.geeksforgeeks.org%2Fimg-practice%2Fmentors%2F2eaad1dfab78954163052875d5a8b0949e51b8d6.PNG&w=256&q=75");
+    background-size: cover;
+    height: 9rem;
+    width: 9rem;
+    border-radius: 50%;
+    margin-left: 14rem;
+}
+
+.instru-details{
+    width: 38rem;
+}
+
+.intro{
+    font-size: 1rem;
+    font-family: "Nunito", sans-serif;
+    font-weight: 500;
+    margin-top: 0.2rem;
+}
+
+.name{
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+    font-size: 1.4rem;
+    margin: 0;
+}
+
+.pos{
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    margin: 0;
+}
+
+.pay-head{
+    font-size: 1.5rem;
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+
+.payment-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+
+.pay-box{
+    display: flex;
+    flex-direction: column;
+    height: 13.25rem;
+    width: 25rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.4rem;
+    margin-top: 1.5rem;
+}
+
+.box1, .box2, .box3{
+    display: flex;
+    justify-content: space-between;
+    height: 6rem;
+}
+
+.box1{
+    margin: 1rem 1rem 0 1rem;
+}
+
+.box2{
+    margin: 0 1rem;
+}
+
+.box3{
+    margin: 1rem;
+}
+
+.right{
+    text-align: right;
+}
+
+.login2{
+    width: 14.5rem;
+    font-family: "Nunito", sans-serif;
+    font-size: 1rem;
+}
+
+.sub-head{
+    font-size: 1rem;
+    font-family: "Nunito", sans-serif;
+    color: #6C757D;
+}
+
+.coupon{
+    font-size: 1rem;
+    font-family: "Nunito", sans-serif;
+}
+
+.price{
+    font-size: 0.8rem;
+    font-family: "Nunito", sans-serif;
+}
+
+.price span{
+    text-decoration: line-through;
+}
+
+@media screen and (max-width: 1090px) {
+    .nav-left .nav-item1, .nav-right{
+        display: none;
+    }
+    .gfg-icon{
+        display: flex;
+        justify-content: center;
+        flex: 1;
+    }
+}
+
+
+@media screen and (min-width: 910px) and (max-width: 1040px) {
+    .login{
+        margin-top: 1rem;
+    }
+    .course-body{
+        font-size: 1rem;
+    }
+    .intro{
+        font-size: 0.9rem;
+    }
+    .instru-img{
+        margin-left: 10em;
+    }
+}
+
+@media screen and (max-width: 915px) {
+    .course{
+        display: flex;
+        flex-wrap: wrap;
+        border: none;
+        justify-content: center;
+    }
+
+    .course-content{
+        display: flex;
+        justify-content: center;
+    }
+
+    .course-vid img{
+        border-radius: 1.5rem;
+    }
+
+    .course-overview{
+        margin-top: 25rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+    }
+
+    .course-content{
+        display: flex;
+        flex-direction: column;
+    }
+    .details{
+        display: flex;
+        justify-content: center;
+    }
+
+    .instructor, .instru-img{
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+    .intro{
+        font-size: 0.9rem;
+    }
+
+    .instru-details{
+        margin-left: 10px;
+    }
+
+    .fullstack-head{
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .details{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .instru-details{
+        padding: 20px 30px;
+        margin: 0;
+    }
+    .details-intruc{
+        height: fit-content;
+        background-color: #E9ECEF;
+    }
+    .course-body{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .pay-box{
+        width: 60%;
+    }
+    .sub-head, .coupon{
+        font-size: 0.8rem;
+    }
+    .login2{
+        width: 100%;
+    }
+    .course-content{
+        padding-left: 20px;
+    }
+    .course-desc{
+        width: 100%;
+        margin-top:3rem;
+        padding-left: 2rem;
+     }
+}
+
+@media screen and (max-width: 450px) {
+    .fullstack-head, .ratings{
+        font-size: 1rem;
+    }
+    .course-vid{
+       text-align: center;
+    }
+    .course-vid img{
+        max-width: 80%;
+    }
+    .course-desc{
+       margin-top:3rem;
+       width: 100%;
+       border-radius: 0;
+    }
+    .course-content{
+        font-size: 0.9rem;
+    }
+
+    .login2{
+        font-size: 0.8rem;
+    }
+    .left{
+        margin-right: 5px;
+    }
+}
